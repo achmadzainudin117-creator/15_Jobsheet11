@@ -5,13 +5,11 @@ public class PengunjungCafe15 {
         System.out.println("Daftar Nama Pengunjung:");
 
         for (int i = 0; i < namaPengunjung.length; i++) {
-            System.out.println((i + 1) + ". " + namaPengunjung[i]);
+            System.out.println("- " + namaPengunjung[i]);
         }
     }
 
     public static void main(String[] args) {
-        daftarPengunjung("Ali", "Budi", "Citra");
-        daftarPengunjung("Andi");
-        daftarPengunjung("Doni", "Eti", "Fahmi", "Galih");
+        daftarPengunjung();
     }
 }
