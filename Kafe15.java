@@ -11,13 +11,10 @@ public class Kafe15 {
         System.out.println("===========================");
         System.out.println("Silakan pilih menu yang Anda inginkan.");
     }
-     static int jumlahMenu() {
-        return 6;
-    }
     
     public static void main(String[] args) {
-        Menu();
-
-    System.out.println("Jumlah menu: " + jumlahMenu());
-    }
+    Menu();
+    Menu();
+    Menu();
 }
+    }
