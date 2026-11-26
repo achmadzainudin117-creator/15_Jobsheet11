@@ -1,11 +1,17 @@
-
 public class PengunjungCafe15 {
 
-    static void daftarPengunjung(String... namaPengunjung, int... nomorMeja) {
-        System.out.println("Daftar Pengunjung");
+    static int hitungTotalBelanja(int... harga) {
+        int total = 0;
+        for (int nilai : harga) {
+            total += nilai;
+        }
+        return total;
     }
 
     public static void main(String[] args) {
-        daftarPengunjung("Ali", "Budi", 5);
+
+        System.out.println("Total 1 argumen: Rp " + hitungTotalBelanja(15000));
+        System.out.println("Total 3 argumen: Rp " + hitungTotalBelanja(15000, 20000, 10000));
+        System.out.println("Total 5 argumen: Rp " + hitungTotalBelanja(15000, 20000, 10000, 12000, 18000));
     }
 }
