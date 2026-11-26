@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class HitungBalok15 {
 
     public static void main(String[] args) {
@@ -9,19 +8,15 @@ public class HitungBalok15 {
 
         System.out.print("Masukkan panjang: ");
         p = input.nextInt();
-
         System.out.print("Masukkan lebar: ");
         l = input.nextInt();
-
         System.out.print("Masukkan tinggi: ");
         t = input.nextInt();
 
         L = p * l;
         System.out.println("Luas persegi panjang adalah " + L);
-
         vol = p * l * t;
         System.out.println("Volume balok adalah " + vol);
-
         input.close();
     }
 }
